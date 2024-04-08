@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bill card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <ol>
+                <li><h2 class="logo"><i class="fa fa-plus-square" id="plus"></i>HealthTrack</h2></li>
+                <li><i class="fa-solid fa-bars" id="filter"></i></li>
+                <li class="searchel"><i class="fa fa-search" id="searchicon"></i><input type="text" class="search" placeholder="search here">
+                    </li>
+                <li><p class="time"><i class="fa-regular fa-clock" id="clock"></i>12:29 AM Today July 25,2023</p></li>
+                <li><i class="fa-regular fa-bell" id="bell"></i></li>
+                <li><i class="fa-regular fa-envelope" id="msg"></i></li>
+                <li><img src="pro.png" alt="profile" class="profile"></li>
+            </ol>
+        </div>
+        <div class="page">
+                <div class = "dashboard">
+                    <ul>
+                        <li><a href="#"><i class="fa-regular fa-envelope"></i>messages</a></li>
+                        <li>
+                            <a href="#"><i class="fa-regular fa-user"></i>Patients<i class="fa fa-sort-down" id="arr"></i></a>
+                            <ul class="pat">
+                                <li><a href="#">patient list</a></li>
+                                <li><a href="#">Add patient</a></li>
+                                <li><a href="#">Old patient</a></li>
+                                <li><a href="#">Reports</a></li>
+                            </ul>
+                        </li>
+                        <li >
+                            <a href="#"><i class="fa-regular fa-calendar"></i>calendar<i class="fa fa-sort-down" id="arr"></i></a>
+                            <ul class="cal">
+                                <li><a href="#">weakly</a></li>
+                                <li><a href="#">monthly</a></li>
+                                <li><a href="#">last day</a></li>
+                            </ul>
+                        </li>
+                        <li >
+                            <a href="#"><i class="fa-solid fa-users"></i>Staff<i class="	fa fa-sort-down" id="arr"></i></a>
+                            <ul class="staff">
+                                <li><a href="#">newly joined</a></li>
+                                <li><a href="#">old joined</a></li>
+                            </ul>
+                        </li>
+                        <li >
+                            <a href="#"><i class="fa-solid fa-gear"></i></i>Settings<i class="	fa fa-sort-down" id="arr"></i></a>
+                            <ul class="set">
+                                <li><a href="#">General</a></li>
+                                <li><a href="#">Advanced</a></li>
+                            </ul>
+                        </li>
+                        <li >
+                            <a href="#"><i class="fa-sharp fa-regular fa-circle-question"></i>Help<i class="	fa fa-sort-down" id="arr"></i></a>
+                            <ul class="help">
+                                <li><a href="#">customer</a></li>
+                                <li><a href="#">Helpline</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-regular fa-file"></i>Reports<i class="	fa fa-sort-down" id="arr"></i></a>
+                            <ul class="report">
+                                <li><a href="#">patients</a></li>
+                                <li><a href="#">Doctors</a></li>
+                                <li><a href="#">complaints</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            
+            <div class="content">
+                <div class="waitingroom" id="box">
+                    
+                    <h2>Waitng Room<span class="mini">(4 patients)</span><span class="arrow"><i class="fa-solid fa-circle-chevron-down"></i></span></h2>
+                    <div class="line"><hr color="#ff0077" size="5"></div>
+                    <div class="class1">
+                        <h3>Maxine E.Byrd<span class="colon"><i class="fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="bdot"><i class="fa fa-circle"></i></span>MAMM</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="yellow">waiting</button>
+                    </div>
+                    <div class="class2">
+                        <h3>Tamara M.Nawbill <span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="gdot"><i class="fa fa-circle"></i></span>Procedure</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="green">Ready</button>
+                    </div>
+                    <div class="class3">
+                        <h3>Mandy A.Hill<span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="pdot"><i class="fa fa-circle"></i></span>US</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="grey">N/A</button>
+                    </div>
+                    <div class="addblack">
+                        <i class = "fa fa-user-plus"></i>
+                        <h3 class="addp">Add patient</h3>
+                        <p class="drag">Drag Here</p>
+                    </div>
+                </div>
+
+                <div class="mamm" id="box">
+                    <h2>MAMM <span class="mini">(4 patients)</span><span class="arrow"><i class="fa-solid fa-circle-chevron-down"></i></span></h2>
+                    <div class="line"><hr color="#0099ff" size="5"></div>
+                    <div class="class1">
+                        <h3>Maxine E.Byrd <span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="bdot"><i class="fa fa-circle"></i></span>MAMM</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="yellow">waiting</button>
+                    </div>
+                    <div class="class2">
+                        <h3>Donna E.Heinemann <span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="gdot"><i class="fa fa-circle"></i></span>Procedure</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="green">Ready</button>
+                    </div>
+                    <div class="class3">
+                        <h3>Anne T.Ostrowski<span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="pdot"><i class="fa fa-circle"></i></span>US</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="red">dismiss</button>
+                    </div>
+                    <div class="addblack">
+                        <i class = "fa fa-user-plus"></i>
+                        <h3 class="addp">Add patient</h3>
+                        <p class="drag">Drag Here</p>
+                    </div>
+                </div>
+                <div class="us" id="box">
+                    <h2>US<span class="mini">(4 patients)</span><span class="arrow"><i class="fa-solid fa-circle-chevron-down"></i></span></h2>
+                    <div class="line"><hr color="#00ff55" size="5"></div>
+                    <div class="class1">
+                        <h3>Rita T.Morris<span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="bdot"><i class="fa fa-circle"></i></span>MAMN</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="yellow">waiting</button>
+                    </div>
+                    <div class="class2">
+                        <h3>Jeannette J.Willie<span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="gdot"><i class="fa fa-circle"></i></span>Procedure</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="red">dismiss</button>
+                    </div>
+                    <div class="class3">
+                        <h3>Mandy A.Hill<span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="pdot"><i class="fa fa-circle"></i></span>US</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="grey">N/A</button>
+                    </div>
+                    <div class="addblack">
+                        <i class = "fa fa-user-plus"></i>
+                        <h3 class="addp">Add patient</h3>
+                        <p class="drag">Drag Here</p>
+                    </div>
+                </div>
+                <div class="Procedure" id="box">
+                    <h2>Procedure<span class="mini">(4 patients)</span><span class="arrow"><i class="fa-solid fa-circle-chevron-down"></i></span></h2>
+                    <div class="line"><hr color="#ffc400" size="5"></div>
+                    <div class="class1">
+                        <h3>Maxine E.Byrd <span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="bdot"><i class="fa fa-circle"></i></span>MAMN</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="green">Ready</button>
+                    </div>
+                    <div class="class2">
+                        <h3>Leo T.Muligan<span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="gdot"><i class="fa fa-circle"></i></span>Procedure</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="green">Ready</button>
+                    </div>
+                    <div class="class3">
+                        <h3>Jullie J.Cole<span class="colon"><i class="	fa fa-ellipsis-v"></i></span></h3>
+                        <h6><span class="pdot"><i class="fa fa-circle"></i></span>US</h6>
+                        <p class="time"><span class="bold">Arrival:</span>8:45 AM <span class="bold">Age:</span>75yrs</p>
+                        <button class="grey">N/A</button>
+                    </div>
+                    <div class="addblack">
+                        <i class = "fa fa-user-plus"></i>
+                        <h3 class="addp">Add patient</h3>
+                        <p class="drag">Drag Here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

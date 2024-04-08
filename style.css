@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    margin:10px;
+    background-color: rgb(234, 236, 236);
+    border: 2px solid  rgba(152, 153, 153, 0.432);
+}
+#plus{
+    font-size: xx-large;
+    color:rgb(243, 37, 89);
+    border-radius:80%;
+    margin: 10px;
+}
+.top{
+    text-align: center;
+    background-color: white;
+}
+.top li{
+    display: inline-flex;
+    font-size: medium;
+}
+.logo{
+    font-size: large;
+}
+#filter{
+    margin-left:150px;
+    font-size: large;
+    margin-right: 30px;
+    color: aliceblue;
+    background-color: black;
+    padding:7px;
+    border-radius: 10px;
+}
+.search{
+    font-size:15px;
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    padding: 2px;
+    margin: 2px;
+    background-color: rgb(235, 229, 229);
+}
+
+.searchel{
+    border-radius:50px;
+    border: 1px solid transparent;
+    background-color: rgb(235, 229, 229);
+}
+
+#searchicon{
+    font-size: larger;
+    margin: 2px;
+    padding: 5px;
+}
+#clock{
+    margin-left: 50px;
+    color: white;
+    margin: 20px;
+    background-color: black;
+    font-size:large;
+    border-radius:50%;
+    padding: 2px;
+}
+.time{
+    font-size: small;
+    padding: 1px;
+    font-weight: bold;
+}
+#bell{
+    font-size: medium;
+    margin-left:200px;
+    text-align: right;
+}
+#msg{
+    font-size: medium;
+    text-align: right;
+    margin-left:20px;
+}
+.profile{
+    height: 20px;
+    width: 20px;
+    text-shadow: 10px;
+    margin-left:50px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+li:hover{
+    cursor: pointer;
+}
+
+.page{
+    display: flex;
+}
+.content{
+    border-top: 2px solid  rgba(152, 153, 153, 0.432);
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.dashboard ul li .pat{
+    display: none;
+}
+
+.dashboard ul li:hover .pat{
+    display: block;
+}
+.dashboard ul li .cal{
+    display: none;
+}
+
+.dashboard ul li:hover .cal{
+    display: block;
+}
+.dashboard ul li .staff{
+    display: none;
+}
+
+.dashboard ul li:hover .staff{
+    display: block;
+}
+.dashboard ul li .set{
+    display: none;
+}
+
+.dashboard ul li:hover .set{
+    display: block;
+}
+.dashboard ul li .help{
+    display: none;
+}
+
+.dashboard ul li:hover .help{
+    display: block;
+}
+.dashboard ul li .report{
+    display: none;
+}
+
+.dashboard ul li:hover .report{
+    display: block;
+}
+
+.dashboard{
+    height:580px;
+    width: 250px;
+    background-color:rgb(243, 243, 243);
+    border: 2px solid  rgba(152, 153, 153, 0.432);
+    border-left:none ;
+    border-bottom: none;
+}
+.dashboard ul li{
+    padding: 10px;
+    padding: 20px 0px;
+    position: relative;
+    list-style: none;
+    background-color: transparent;
+}
+.dashboard ul li ul li{
+    padding: 10px;
+    list-style: none;
+    background-color: transparent;
+}
+.dashboard ul a{
+    padding: 10px;
+    border-radius: 2px;
+}
+.dashboard ul li ul a{
+    padding: 10px;
+    border-radius: 2px;
+}
+.dashboard ul a:hover{
+    background-color:  rgba(152, 153, 153, 0.432);
+    border-radius: 10px;
+}
+.dashboard i{
+    margin-right:10px;
+}
+#arr{
+    position: absolute;
+    right: 10px;
+}
+.content h2{
+    text-align: left;
+    font-size: medium;
+    margin-left:5px;
+    padding: 10px;
+}
+.content h2 span{
+    font-size: smaller;
+    padding: 10px;
+}
+.content .waitingroom:hover{
+    background-color: white;
+}
+.content .waitingroom{
+    display:block;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.content .mamm:hover{
+    background-color: white;
+}
+.content .mamm{
+    padding: 10px;
+    display:block;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.content .us:hover{
+    background-color: white;
+}
+.content .us{
+    display:block;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.content .Procedure:hover{
+    background-color: white;
+}
+.content .Procedure{
+    display:block;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    margin-top: 42px;
+    border-radius: 10px;
+}
+
+.arrow{
+    position: absolute;
+    right: 30px;
+}
+.content .class1 h3{
+    font-size:15px;
+}
+.content .class2 h3{
+    font-size: 15px;
+}
+.content .class3 h3{
+    font-size: 15px;
+}
+.content .class1{
+    background-color: white;
+    margin: 20px;
+    text-align: left;
+    line-height:1.5;
+    border-radius:10px ;
+    padding: 10px;
+    position: relative;
+}
+.content .class2{
+    background-color: white;
+    margin: 20px;
+    text-align: left;
+    line-height:1.5;
+    border-radius:10px ;
+    padding: 10px;
+    position: relative;
+}
+.content .class3:hover{
+    background-color:   rgb(234, 236, 236);
+}
+.content .class2:hover{
+    background-color:   rgb(234, 236, 236);
+}
+.content .class1:hover{
+    background-color:  rgb(234, 236, 236);
+}
+.content .class3{
+    background-color: white;
+    margin: 20px;
+    text-align: left;
+    line-height:1.5;
+    border-radius:10px ;
+    padding: 10px;
+    position: relative;
+}
+.line{
+    margin: 0px 20px;
+}
+
+.addblack{
+    border: 2px solid rgb(10, 247, 10);
+    border-radius: 20px;
+}
+
+.addblack i{
+    font-size: x-large;
+    padding: 10px 0px;
+}
+.addblack .drag{
+    font-size: smaller;
+}
+.addblack .addp{
+    padding: 10px 0px 0px 0px;
+    font-size: large;
+}
+
+.content .waitingroom:hover .addblack{
+    color: rgb(6, 233, 6);
+    background-color: rgb(203, 255, 203);
+}
+.content .us:hover .addblack{
+    color: rgb(6, 233, 6);
+    background-color: rgb(203, 255, 203);
+}
+.content .mamm:hover .addblack{
+    color: rgb(6, 233, 6);
+    background-color: rgb(203, 255, 203);
+}
+.content .Procedure:hover .addblack{
+    color: rgb(6, 233, 6);
+    background-color: rgb(203, 255, 203);
+}
+.bdot{
+    color: rgb(0, 110, 255);
+    font-size: smaller;
+    margin: 4px;
+}
+.gdot{
+    color: rgb(0, 255, 234);
+    font-size: smaller;
+    margin: 4px;
+}
+.pdot{
+    color: #ff0077;
+    font-size: smaller;
+    margin: 4px;
+}
+
+.content .red{
+    color: white;
+    background-color: #ff006a;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: small;
+    width: 50px;
+}
+.content .green{
+    color: white;
+    background-color: #00da00e3;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: small;
+    width: 50px;
+}
+.content .yellow{
+    color: white;
+    background-color: #ffc404;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: small;
+    width: 50px;
+}
+.content .grey{
+    color: white;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: small;
+    width: 50px;
+}
+
+.content p{
+    font-size:x-small;
+    font-weight: lighter;
+}
+
+.content .bold{
+    font-size: x-small;
+    font-weight:bold;
+}
+
+.colon{
+    position: absolute;
+    right: 10px;
+}
+.Procedure .arrow{
+    position: absolute;
+    right: 50px;
+}
